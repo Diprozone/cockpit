@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/css/Gilroy-Light.otf')format('truetype');
+}
+
+body {
+  background-color: #131824;
+}
+
+p {
+  font-family: 'Gilroy', sans-serif;
+}
+
+h1.title {
+  text-align: center;
+  font-family: futura-pt, sans-serif;
+  font-weight: 800;
+  background-color: #cc002f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -2px;
+  filter: drop-shadow(0px 1px 0px #FFFFFF);
+  font-size: 48px;
+
+}
+
+h3.title {
+  font-size: 28px;
+  font-family: 'Gilroy', sans-serif;
+  margin-left: 2em;
+  color: #cc002f;
+}
+
+.container {
+  margin-bottom: 5em;
+}
+
+.ui.link.card {
+  width: 23.75%;
+}
+
+pre {
+  display: inline;
+  background-color: #e8e8e8;
+}
